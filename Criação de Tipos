@@ -2,12 +2,12 @@ package main
 
 import "fmt"
 
-type whatever int //criei o tipo (whatever)
+type whatever int //Criei o tipo (whatever)
 var b whatever = 10
 
 func main() {
     x := 10
-    fmt.Printf("%T\n", b) //mostrando o tipo da variável (b)
+    fmt.Printf("%T\n", b) //Mostrando o tipo da variável (b)
     fmt.Printf("%T", x)
     //a resposta de ambos é 10, mesmo assim são considerados de tipos diferentes
 }
