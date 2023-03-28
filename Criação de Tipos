@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+type whatever int
+var b whatever
+
+func main() {
+    fmt.Printf("%T", b)
+}
