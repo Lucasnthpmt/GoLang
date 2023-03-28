@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-type whatever int
+type whatever int //criei o tipo (whatever)
 var b whatever
 
 func main() {
-    fmt.Printf("%T", b)
+    fmt.Printf("%T", b) //mostrando o tipo da variável (b)
 }
