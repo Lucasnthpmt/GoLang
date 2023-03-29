@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+type whatever int
+
+var x whatever
+
+func main() {
+	fmt.Println(x)        //parte 1 do exercício
+	fmt.Printf("%T\n", x) //parte 2 do exercício
+	x = 42                //parte 3
+	fmt.Println(x)        //parte 4
+}
